@@ -10,7 +10,7 @@ Option Strict On
 Module RollTheDice
 
     Sub Main()
-        Dim numbers(7) As Integer
+        Dim numbers(13) As Integer
         Dim temp As String
         Dim seperator As String = " |"
         Dim columnLength As Integer = 6
@@ -48,7 +48,7 @@ Module RollTheDice
         Dim temp As Single
 
         Randomize()
-        temp = (Rnd() * 6) + 1
+        temp = (Rnd() * 12) + 1
         value = CInt(System.Math.Floor(CDbl(temp)))
         System.Math.Floor(CDbl(1))
 
